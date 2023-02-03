@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "b4rpipe-env"
+version = "0.1.0"
+description = "Python environment for the pipeline reduction by b4rpipe"
+authors = ["Akio Taniguchi <taniguchi@a.phys.nagoya-u.ac.jp>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+b4rpipe = "^0.1"
+ipython = "^8.9"
+scikit-learn = "^1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
